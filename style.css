@@ -24,6 +24,12 @@ header > nav > a > button {
     
 }
 
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 a {
     text-decoration: none;
@@ -49,10 +55,38 @@ a {
     margin-top: 20px;
     margin-bottom: 30px;
     height: 40px;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
  }
 
+
+ #searchbar:hover{
+     box-shadow: 0px 0px 3px rgb(0 0 0 / 25%);
+ }
+
+
  .searchinput {
-     border: none;
+    border:none;
+    outline: none;
+    width: 370px;
+    height: 30px;
+    font-size: 1.1em;
+ }
+
+ #searchicon {
+     color: rgb(167, 165, 165);
+ }
+
+ .searchmic {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    width: 30px;
+     
  }
 
  .searchbuttons {
@@ -62,6 +96,12 @@ a {
     opacity: 0.75;
     font-size: 1em;
     margin-right: 10px;
+   
+ }
+
+.searchbuttons:hover{
+    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 36%);
+
  }
 
  footer{

@@ -24,10 +24,17 @@ header > nav > a > button {
     
 }
 
+.dinho {
+    
+    width: 33px;
+    border: green;
+}
+
 #right{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -37,6 +44,10 @@ a {
     opacity: 0.75;
     font-size: 13px;
     margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
  main {
@@ -78,7 +89,7 @@ a {
  }
 
  #searchicon {
-     color: rgb(167, 165, 165);
+    color: rgb(167, 165, 165);
  }
 
  .searchmic {
@@ -105,9 +116,25 @@ a {
  }
 
  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     left: 0;
     bottom: 0;
+    right: 0;
     width: 100%;
+    background-color: rgb(238, 235, 235);
+    box-shadow: 0px 0px 2px 1px rgba(168, 167, 167, 0.699);
+    height: 44px;
 
+ }
+
+ footer > nav > a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(43, 43, 44);
+    
  }

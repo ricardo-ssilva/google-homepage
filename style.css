@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    min-width: 300px;
+    min-width: 350px;
 }
 
 header {
@@ -117,4 +117,16 @@ a:hover {
     margin-right: 20px;
     margin-left: 20px;
     color: rgb(43, 43, 44);
+ }
+
+ @media (max-width: 650px) { 
+
+
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+ }
+
  }

@@ -1,2 +1,2 @@
 # google-homepage
-Google homepage clone created with HTML and CSS. The Odin Project Exercise.
+My first page using HTML and CSS. Basically a Google home page clone for The Odin Project Exercise.

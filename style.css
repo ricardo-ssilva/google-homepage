@@ -13,30 +13,19 @@ header {
     margin-bottom: 50px;
 }
 
-header > nav > a > button {
-    background-color: rgb(0, 87, 250);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border: none;
-    padding: 9px 10px 9px 10px;
-    border-radius: 7%;
-    
-}
 
-.dinho {
-    
-    width: 33px;
-    border: green;
-}
 
 #right{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
+
+.dinho {
+    width: 33px;
+    border: green;
+}
 
 a {
     text-decoration: none;
@@ -51,11 +40,9 @@ a:hover {
 }
 
  main {
-    
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
      margin-top: 125px;
-
  }
 
  #searchbar{
@@ -70,8 +57,6 @@ a:hover {
     align-content: stretch;
     justify-content: space-evenly;
     align-items: center;
-   
-
  }
 
 
@@ -97,7 +82,6 @@ a:hover {
     border-radius: 10px;
     background-color: white;
     width: 30px;
-     
  }
 
  .searchbuttons {
@@ -107,12 +91,10 @@ a:hover {
     opacity: 0.75;
     font-size: 1em;
     margin-right: 10px;
-   
  }
 
 .searchbuttons:hover{
     box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 36%);
-
  }
 
  footer{
@@ -127,7 +109,6 @@ a:hover {
     background-color: rgb(238, 235, 235);
     box-shadow: 0px 0px 2px 1px rgba(168, 167, 167, 0.699);
     height: 44px;
-
  }
 
  footer > nav > a {
@@ -136,5 +117,4 @@ a:hover {
     margin-right: 20px;
     margin-left: 20px;
     color: rgb(43, 43, 44);
-    
  }
